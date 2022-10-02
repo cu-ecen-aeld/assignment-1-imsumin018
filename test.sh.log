@@ -1,0 +1,103 @@
+Running test with user sumin
+-- Generating ;/home/sumin/coursera/buildroot/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/sumin/coursera/buildroot/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/sumin/coursera/buildroot/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/sumin/coursera/buildroot/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/sumin/coursera/buildroot/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/sumin/coursera/buildroot/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sumin/coursera/buildroot/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+../../assignment-autotest/auto_generate.sh: line 22: ruby: command not found
+assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make:63: recipe for target '../assignment-autotest/test/assignment1/Test_hello_Runner.c' failed
+make[2]: *** [../assignment-autotest/test/assignment1/Test_hello_Runner.c] Error 127
+CMakeFiles/Makefile2:87: recipe for target 'assignment-autotest/CMakeFiles/assignment-autotest.dir/all' failed
+make[1]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:129: recipe for target 'all' failed
+./unit-test.sh: line 13: ./build/assignment-autotest/assignment-autotest: No such file or directory
+Unit test failed
+Executing assignment test script
+~/coursera/buildroot/assignment-autotest/test/assignment1 ~/coursera/buildroot
+~/coursera/buildroot/finder-app ~/coursera/buildroot/assignment-autotest/test/assignment1 ~/coursera/buildroot
+./assignment-autotest/test/assignment1/assignment-test.sh: line 10: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if no parameters were specified[0m
+./assignment-autotest/test/assignment1/assignment-test.sh: line 16: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+./finder-test.sh: 57: ./finder-test.sh: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution failed with return code 127[0m
+Validation failed with error list :writer.sh should have exited with return value 1 if no parameters were specified:writer.sh should have exited with return value 1 if write string is not specified:finder-test.sh execution failed with return code 127
+Test of assignment assignment1 failed with rc=1
+Running test with user sumin
+-- Generating ;/home/sumin/coursera/buildroot/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/sumin/coursera/buildroot/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/sumin/coursera/buildroot/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/sumin/coursera/buildroot/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/sumin/coursera/buildroot/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/sumin/coursera/buildroot/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sumin/coursera/buildroot/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+../../assignment-autotest/auto_generate.sh: line 22: ruby: command not found
+assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make:63: recipe for target '../assignment-autotest/test/assignment1/Test_hello_Runner.c' failed
+make[2]: *** [../assignment-autotest/test/assignment1/Test_hello_Runner.c] Error 127
+CMakeFiles/Makefile2:87: recipe for target 'assignment-autotest/CMakeFiles/assignment-autotest.dir/all' failed
+make[1]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/all] Error 2
+Makefile:129: recipe for target 'all' failed
+make: *** [all] Error 2
+./unit-test.sh: line 13: ./build/assignment-autotest/assignment-autotest: No such file or directory
+Unit test failed
+Executing assignment test script
+~/coursera/buildroot/assignment-autotest/test/assignment1 ~/coursera/buildroot
+~/coursera/buildroot/finder-app ~/coursera/buildroot/assignment-autotest/test/assignment1 ~/coursera/buildroot
+Usage: ./writer.sh <file> <insert string> 
+Usage: ./writer.sh <file> <insert string> 
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+Attempting to create directory /tmp/aeld-data
+Directory /tmp/aeld-data created
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user sumin
+-- Generating ;/home/sumin/coursera/buildroot/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/sumin/coursera/buildroot/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/sumin/coursera/buildroot/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/sumin/coursera/buildroot/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/sumin/coursera/buildroot/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/sumin/coursera/buildroot/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sumin/coursera/buildroot/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+../../assignment-autotest/auto_generate.sh: line 22: ruby: command not found
+assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make:63: recipe for target '../assignment-autotest/test/assignment1/Test_hello_Runner.c' failed
+make[2]: *** [../assignment-autotest/test/assignment1/Test_hello_Runner.c] Error 127
+CMakeFiles/Makefile2:87: recipe for target 'assignment-autotest/CMakeFiles/assignment-autotest.dir/all' failed
+make[1]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/all] Error 2
+Makefile:129: recipe for target 'all' failed
+make: *** [all] Error 2
+./unit-test.sh: line 13: ./build/assignment-autotest/assignment-autotest: No such file or directory
+Unit test failed
+Executing assignment test script
+~/coursera/buildroot/assignment-autotest/test/assignment1 ~/coursera/buildroot
+~/coursera/buildroot/finder-app ~/coursera/buildroot/assignment-autotest/test/assignment1 ~/coursera/buildroot
+Usage: ./writer.sh <file> <insert string> 
+Usage: ./writer.sh <file> <insert string> 
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+Attempting to create directory /tmp/aeld-data
+Directory /tmp/aeld-data created
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
